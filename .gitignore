@@ -1,0 +1,26 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de build e dependências (para o futuro, caso use NodeJS)
+node_modules/
+dist/
+build/
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

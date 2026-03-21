@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>KINETIC_ENGINE // ARCHITECT_OS</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/tailwind-config.js"></script>
+</head>
+
+<body class="bg-background text-on-background font-body selection:bg-primary selection:text-white overflow-x-hidden">
+    <!-- Navigation -->
+    <nav
+        class="fixed top-0 w-full z-50 border-b border-white/5 bg-background/80 backdrop-blur-2xl flex justify-between items-center h-20 px-10 max-w-full">
+        <div class="text-2xl font-black tracking-tighter text-primary italic">MEU PORTIFÓLIO</div>
+        <div class="hidden md:flex items-center gap-12">
+            <a class="font-headline uppercase tracking-widest text-[11px] font-bold text-primary border-b border-primary pb-1"
+                href="#">PROJETOS</a>
+            <a class="font-headline uppercase tracking-widest text-[11px] font-medium text-white/50 hover:text-white transition-all"
+                href="#">EXPERIÊNCIA</a>
+            <a class="font-headline uppercase tracking-widest text-[11px] font-medium text-white/50 hover:text-white transition-all"
+                href="#">CERTIFICAÇÕES</a>
+            <a class="font-headline uppercase tracking-widest text-[11px] font-medium text-white/50 hover:text-white transition-all"
+                href="#">MINHA HISTÓRIA</a>
+        </div>
+        <button
+            class="bg-primary text-white px-8 py-3 font-headline uppercase tracking-widest text-[11px] font-black transition-all duration-500 hover:bg-white hover:text-black hover:shadow-[0_0_30px_rgba(255,0,0,0.4)] active:scale-95">
+            CONECTAR
+        </button>
+    </nav>
+    <main class="relative min-h-screen flex flex-col justify-center">
+        <!-- Parallax Background Layer -->
+        <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?q=80&amp;w=2072&amp;auto=format&amp;fit=crop')] bg-cover bg-center grayscale opacity-10 contrast-150 scale-110"
+                style="filter: brightness(0.5) contrast(1.5);"></div>
+            <div class="absolute inset-0 hero-gradient"></div>
+            <div class="absolute inset-0 grid-overlay"></div>
+            <div class="scanline"></div>
+            <!-- HUD Elements with animations -->
+            <div
+                class="absolute top-1/4 left-10 w-px h-64 bg-gradient-to-b from-transparent via-primary/40 to-transparent animate-pulse">
+            </div>
+            <div
+                class="absolute top-1/4 left-14 font-mono text-[9px] text-primary/40 tracking-[0.6em] [writing-mode:vertical-lr] uppercase">
+                OS_STATUS_SISTEMA_ESTAVEL</div>
+            <div
+                class="absolute top-2/3 right-0 w-64 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent">
+            </div>
+        </div>
+        <!-- Content -->
+        <section
+            class="relative z-10 container mx-auto px-10 md:px-20 lg:px-32 py-40 flex flex-col lg:flex-row items-center gap-24">
+            <!-- Hero Column -->
+            <div class="w-full lg:w-3/5 flex flex-col items-start opacity-0 animate-reveal">
+                <div class="mb-10 flex items-center gap-4 reveal-delay-1 opacity-0 animate-reveal">
+                    <span class="w-16 h-[1px] bg-primary"></span>
+                    <span class="font-headline text-primary tracking-[0.4em] text-[10px] font-bold uppercase">Status do
+                        Sistema: Ativo // v.2.7.0</span>
+                </div>
+                <h1
+                    class="font-headline text-7xl md:text-9xl font-black text-white tracking-tighter leading-[0.8] mb-12 reveal-delay-2 opacity-0 animate-reveal">
+                    KAUÊ<br /><span class="text-transparent"
+                        style="-webkit-text-stroke: 1px rgba(255,255,255,0.2);">PEREIRA</span>
+                </h1>
+                <div class="max-w-xl space-y-8 mb-16 reveal-delay-3 opacity-0 animate-reveal">
+                    <p
+                        class="font-headline text-2xl md:text-4xl text-secondary font-light leading-tight tracking-tight">
+                        Estudante do 7º Semestre de Ciência da Computação | <span class="text-white/40 italic">Aspirante
+                            a Big Tech</span>
+                    </p>
+                    <p
+                        class="text-on-surface/50 text-lg md:text-xl leading-relaxed font-light border-l border-primary/20 pl-8 max-w-lg">
+                        Arquitetando sistemas de software robustos sob a ótica da engenharia de alta performance. Focado
+                        em infraestrutura escalável e sistemas distribuídos.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-8 reveal-delay-3 opacity-0 animate-reveal">
+                    <button
+                        class="px-12 py-6 bg-primary text-white font-headline font-black uppercase tracking-widest text-xs transition-all duration-500 hover:bg-white hover:text-black hover:shadow-[0_0_40px_rgba(255,0,0,0.5)] active:scale-95">
+                        Ver meu trabalho
+                    </button>
+                    <button
+                        class="px-12 py-6 border border-white/10 text-white font-headline font-black uppercase tracking-widest text-xs transition-all duration-500 hover:border-primary hover:bg-primary/5">
+                        Baixar CV
+                    </button>
+                </div>
+            </div>
+            <!-- Dashboard/HUD Column -->
+            <div class="w-full lg:w-2/5 flex flex-col gap-8 reveal-delay-3 opacity-0 animate-reveal">
+                <!-- Terminal glass panel -->
+                <div class="glass-panel p-8 relative group red-glow-hover transition-all duration-700">
+                    <div
+                        class="absolute -top-[1px] -left-[1px] w-6 h-6 border-t border-l border-primary/50 group-hover:border-primary transition-colors">
+                    </div>
+                    <div class="flex gap-2 mb-8 justify-end">
+                        <div class="w-2.5 h-2.5 rounded-full bg-white/5"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-white/10"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-primary/80 animate-pulse"></div>
+                    </div>
+                    <div class="font-mono text-[14px] space-y-4 text-secondary/70">
+                        <p><span class="text-primary-variant">root@kinetic_engine:</span><span
+                                class="text-white">~</span>$ sudo init galeria_projetos</p>
+                        <p class="text-white/30 flex items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-primary/40 animate-ping"></span>
+                            Buscando repositórios...
+                        </p>
+                        <p class="text-white/30 flex items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-primary/40 animate-ping" style="animation-delay: 0.5s;"></span>
+                            Otimizando performance de UI...
+                        </p>
+                        <p class="text-primary font-bold mt-6 tracking-tight text-xs uppercase">SISTEMA_OPERACIONAL: OK
+                        </p>
+                    </div>
+                </div>
+                <!-- Info Cards -->
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-panel p-6 transition-all duration-500 hover:border-primary/30 group">
+                        <div class="text-primary/60 mb-4 group-hover:text-primary transition-colors">
+                            <span class="material-symbols-outlined text-3xl">speed</span>
+                        </div>
+                        <h4 class="font-headline text-[9px] font-black uppercase tracking-[0.3em] text-white/30 mb-1">
+                            Velocidade</h4>
+                        <p class="text-white font-bold text-sm tracking-tight">BTO-V4 600cc</p>
+                        <div class="mt-4 h-[1px] w-full bg-white/5 overflow-hidden">
+                            <div class="h-full bg-primary w-3/4 animate-[pulse_3s_infinite]"></div>
+                        </div>
+                    </div>
+                    <div class="glass-panel p-6 transition-all duration-500 hover:border-primary/30 group">
+                        <div class="text-primary/60 mb-4 group-hover:text-primary transition-colors">
+                            <span class="material-symbols-outlined text-3xl">sports_esports</span>
+                        </div>
+                        <h4 class="font-headline text-[9px] font-black uppercase tracking-[0.3em] text-white/30 mb-1">
+                            Zona</h4>
+                        <p class="text-white font-bold text-sm tracking-tight">Night City // 20:00</p>
+                        <div class="mt-4 h-[1px] w-full bg-white/5 overflow-hidden">
+                            <div class="h-full bg-primary w-1/2 animate-[pulse_4s_infinite]"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Status Panel -->
+                <div
+                    class="bg-primary/5 border-l-2 border-primary/50 p-8 flex items-center justify-between backdrop-blur-sm transition-all hover:bg-primary/10">
+                    <div>
+                        <h4 class="font-headline text-[9px] font-black uppercase tracking-[0.5em] text-primary/80 mb-2">
+                            Objetivo Corrente</h4>
+                        <p class="text-white text-sm font-bold uppercase tracking-widest">Estágio em Engenharia de
+                            Software</p>
+                    </div>
+                    <div class="flex flex-col items-end opacity-50">
+                        <span class="material-symbols-outlined text-primary animate-pulse"
+                            style="font-variation-settings: 'FILL' 1;">sensors</span>
+                        <span class="text-[8px] text-primary font-mono font-bold mt-1">STREAMING</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Scroll Indicator -->
+        <div
+            class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 reveal-delay-3 opacity-0 animate-reveal">
+            <span class="font-headline text-[10px] tracking-[1em] uppercase text-white/20 font-black">Scroll</span>
+            <div class="w-px h-20 bg-gradient-to-b from-primary/60 via-primary/5 to-transparent"></div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer
+        class="w-full border-t border-white/5 bg-background flex flex-col md:flex-row justify-between items-center py-16 px-10 gap-10">
+        <div class="font-headline text-[9px] tracking-[0.4em] uppercase text-white/30">
+            ©2024 KINETIC ENGINE | HIGH PERFORMANCE SPECIFICATION
+        </div>
+        <div class="flex gap-12">
+            <a class="font-headline text-[10px] tracking-[0.3em] uppercase text-white/40 hover:text-primary transition-all"
+                href="#">TERMINAL</a>
+            <a class="font-headline text-[10px] tracking-[0.3em] uppercase text-white/40 hover:text-primary transition-all"
+                href="#">SISTEMA</a>
+            <a class="font-headline text-[10px] tracking-[0.3em] uppercase text-white/40 hover:text-primary transition-all"
+                href="#">CRYPT_LINK</a>
+        </div>
+        <div class="text-xl font-black text-secondary/60 font-headline tracking-[0.3em] uppercase italic">
+            KINETIC_ENGINE
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
