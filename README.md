@@ -1,4 +1,4 @@
-# Meu Portfólio Gráfico - Kinetic Engine
+# Meu Portfólio 
 
 Este é o meu portfólio pessoal e profissional, desenvolvido com foco na simulação do ambiente de SO (*Arquitetura Kinetic Engine*), estética cyberpunk avançada, glassmorphism e animações baseadas em Intersection Observer.
 
@@ -30,6 +30,3 @@ git clone https://github.com/SEU_USUARIO/meu-portfolio.git
 cd meu-portfolio
 ```
 Dê um duplo-clique no arquivo `index.html` ou use uma extensão de servidor local no VS Code (como o **Live Server**) para melhor experiência com recarregamento em tempo real.
-
-## 📄 Licença
-O projeto é de código aberto e está licenciado sob os termos da licença [MIT](https://opensource.org/licenses/MIT).
