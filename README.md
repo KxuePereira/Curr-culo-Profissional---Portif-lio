@@ -1,32 +1,38 @@
-# Meu Portfólio 
+# 🏎️ Portfólio Kinetic Engine - Kauê Pereira
 
-Este é o meu portfólio pessoal e profissional, desenvolvido com foco na simulação do ambiente de SO (*Arquitetura Kinetic Engine*), estética cyberpunk avançada, glassmorphism e animações baseadas em Intersection Observer.
+Um portfólio de alta performance com estética **Cyberpunk / Kinetic**, desenvolvido para destacar habilidades em Ciência da Computação e desenvolvimento de software com um visual futurista e impactante.
 
-## 🚀 Tecnologias Integradas
-- **HTML5 Semântico:** Estruturação avançada e acessibilidade.
-- **Vanilla JavaScript:** Funcionalidades de interface como detecção visuais, animações sob demanda, tudo sem uso (desnecessário) de frameworks pesados.
-- **Tailwind CSS (Via CDN):** Para a prototipação rápida de utilitários como `flex`, `grid`, variáveis personalizadas de Dark Mode, opacidade, layouts responsivos, e suporte tipográfico.
-- **CSS3 Animations/Keyframes:** Scanlines globais, overlays paralax, animações de brilhos e botões com transições profundas.
+## 🚀 Tecnologias Utilizadas
 
-## 📁 Arquitetura do Projeto
+- **Tailwind CSS:** Estilização baseada em utilitários para um design responsivo e customizado.
+- **Google Fonts:** Utilização das fontes *Space Grotesk* e *Inter* para uma tipografia moderna.
+- **Material Symbols:** Ícones minimalistas para interface HUD.
+- **JavaScript (Vanilla):** Configuração dinâmica do Tailwind e manipulação de efeitos visuais.
 
-O código foi dividido visando modularidade e alta performance na renderização da página:
-```text
-/
-├── index.html            # Estrutura e marcação principal da página.
-├── css/
-│   └── style.css         # Lógica pura de CSS para grid overlays, scanline, background radial e regras nativas do Glassmorphism.
-├── js/
-│   ├── tailwind-config.js# Regras customizadas do Tailwind, tokens de design e variáveis (primárias, secundárias, background).
-│   └── main.js           # Orquestração do Intersection Observer e acionamentos visuais do DOM.
-└── README.md             # Esta documentação do projeto!
-```
+## ✨ Destaques de Design
 
-## 🛠️ Como rodar o projeto localmente
-Como o projeto é inteiramente *client-side*, basta clonar este repositório e abrir o arquivo `index.html` em qualquer navegador moderno.
+- **Estética HUD (Heads-Up Display):** Interface inspirada em painéis de alta tecnologia e ficção científica.
+- **Efeitos Visuais Avançados:** 
+  - **Scanlines:** Animações de linhas de varredura para um efeito de monitor antigo.
+  - **Glassmorphism:** Painéis com desfoque de fundo (backdrop-blur) e transparência.
+  - **Animações de Revelação:** Elementos que surgem suavemente ao carregar a página.
+- **Paleta Kinetic:** Uso de tons escuros (`#050505`) contrastando com um vermelho vibrante (`#ff0000`).
 
-```bash
-git clone https://github.com/SEU_USUARIO/meu-portfolio.git
-cd meu-portfolio
-```
-Dê um duplo-clique no arquivo `index.html` ou use uma extensão de servidor local no VS Code (como o **Live Server**) para melhor experiência com recarregamento em tempo real.
+## 📁 Estrutura do Projeto
+
+- `index.html`: Estrutura principal do portfólio.
+- `/css/style.css`: Animações personalizadas, efeitos de overlay e configurações de keyframes.
+- `/js/tailwind-config.js`: Configuração de tema estendida para o Tailwind CSS (cores personalizadas e tipografia).
+- `/js/main.js`: Lógica de interatividade e controle de componentes.
+
+## 💻 Como Visualizar
+
+Este é um projeto estático. Para visualizar:
+1. Clone o repositório.
+2. Abra o arquivo `index.html` em qualquer navegador moderno.
+
+> **💡 Dica:** Para a melhor experiência visual, utilize um navegador compatível com `backdrop-filter`.
+
+## 👨‍💻 Autor
+- **Kauê Vitor Pereira Santos**
+- Estudante de Ciência da Computação.
